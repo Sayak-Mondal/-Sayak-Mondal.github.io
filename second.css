@@ -1,0 +1,156 @@
+body{
+	background: linear-gradient(to bottom, #fcc2f7 ,#f6d0f7);
+	/*text-transform: uppercase;*/
+	text-align: justify;
+	font-size: 1.105em;
+	font-family: 'Acme', sans-serif;
+}
+
+.talented {
+	color: #310345;
+	text-align: center;
+	text-decoration: underline;
+    }
+
+h1:hover {
+	color : #0a0675;
+}
+
+/*#ronaldo:link{ 
+    color :blue;
+}
+
+#ronaldo:visited {
+    color : green;
+}*/
+
+h1 + a {
+	color: brown;
+	text-decoration: none;
+  }
+
+.ball{
+	text-align: center;
+
+    }
+
+textarea ~ button{
+	color : blue;
+}
+ ul > li{
+ 	color : green;
+ }
+
+img[src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFIvBPH9fIMQZis4SHYTuv485uqr38bg1VQ&usqp=CAU"]{
+	border : 10px solid #4baaf2;
+	padding: 5px;
+
+
+
+}
+
+a[class |= "ball-at"]{
+	background: #fac7c0;
+}
+
+
+a[id=ash]:hover {
+	color : #6e3e32;
+}
+
+.spider{
+
+	height: 10px;
+	width:  100%;
+	background: linear-gradient(90deg ,#ed395d,#f25eff,pink)
+
+}
+
+.spider2{
+
+	height: 10px;
+	width:  100%;
+	background: radial-gradient(circle ,#ed395d,#f25eff ,pink 100%)
+
+}
+.spider3{
+
+	height: 10px;
+	width:  100%;
+	background: linear-gradient(90deg ,#ed395d,#f25eff,pink)
+
+}
+ 
+ img{
+ 	border : 10px solid grey;
+ 	padding: 5px;
+ }
+
+ img[src*="../img/"]{
+     border : 10px solid #70fdff;;
+ }
+
+ .sayak {
+	color: #f51d0a;
+	text-align: center;
+    }
+
+.italics{
+	font-style : italic;
+}
+ 
+.container{
+	background: white ;
+	margin:10px;
+	display: flex;
+	height: 300px;
+	/*flex-direction : column;*/
+	/*flex-wrap: wrap;*/
+	/*justify-content : space-around;*/
+	/*justify-content : space-between;*/
+	align-items: center;
+	/*align-items : baseline;*/
+	justify-content : center;
+}
+
+
+.container-item {
+	background: #ff0512;
+	color : white;
+	text-align: center;
+	margin: 10px;
+	font-size: 25px;
+	width:70px;
+	line-height: 40px;
+}
+
+.grid-container{
+background: white;
+margin : 10px; 
+height: 300px;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+/*justify-content: space-evenly; */
+/*justify-content: space-around;
+align-content: space-between;
+align-content: start;
+*/
+grid-column-gap: 150px;
+
+
+
+
+
+
+ }
+.grid-item{
+
+	font-size: 25px;
+	margin: 10px;
+	width : 70px;
+	text-align: center;  
+	line-height: 30px;
+
+}
+
